@@ -18,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  background: url("images/fondo.jpg") x-repeat;
 }
 
 /* HTML5 display definitions
@@ -430,9 +431,7 @@ th {
 body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  background: #D1D1D1;
-}
+  line-height: 1.5;}
 
 a {
   color: #63a52a;
@@ -453,8 +452,19 @@ h1.title {
   font-style: italic;
   font-family:Georgia, serif;
   text-align: center;
+  color:red;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+  background: #fff;
+  text-shadow: 0 0 15px gold;
 }
-
+.logo{
+  position:absolute;
+  top:2%;
+  left:1%;
+  with:100px;
+  height:100px;
+}
 .wrapper {
   width: 675px;
   margin: 0 auto;
